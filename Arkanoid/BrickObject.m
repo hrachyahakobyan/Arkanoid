@@ -17,7 +17,7 @@
     self = [super init];
     if(self)
     {
-        _rect = rect;
+         _rect = rect;
         _life = life;
         _topLeftCorner = _rect.origin;
         _topRightCorner = CGPointMake(_topLeftCorner.x + _rect.size.width, _topLeftCorner.y);
